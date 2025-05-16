@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <title>newgen dental clinic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header id="header">
+  <!-- 👇 Sliding Panel: About -->
+  <div class="slide-panel" id="about-panel">
+    <button class="close-btn" onclick="closePanels()">✕</button>
+  <div class="panel-inner">
+    <div class="panel-content">
+    <h3>about us</h3>
+    <ul>
+      <li><a href="#">Dr. A – Orthodontist</a></li>
+      <li><a href="#">Dr. B – Periodontist</a></li>
+      <li><a href="#">Dr. C – Prosthodontist</a></li>
+      <li><a href="#">Dr. D – Paediatric Dentist</a></li>
+      <li><a href="#">blog</a></li>
+      <li><a href="#">testimonials</a></li>
+    </ul>
+  </div>
+    <div class="panel-image ">
+      <img src="images/docs.jpg" alt="Doctors" />
+    </div>
+  </div>
+</div>
+
+  <!-- 👇 Sliding Panel: Services + Problems -->
+  <div class="slide-panel" id="services-panel">
+    <button class="close-btn" onclick="closePanels()">✕</button>
+  <div class="panel-inner">
+    <div class="panel-content">
+    <h3>Our Services</h3>
+    <ul>
+      <li><a href="#">Full Mouth Rehabilitation</a></li>
+      <li><a href="#">Veneers</a></li>
+      <li><a href="#">Paediatric Dentistry</a></li>
+      <li><a href="#">Tooth Cleaning & Whitening</a></li>
+      <li><a href="#">In-house CAD-CAM</a></li>
+      <li><a href="#">Gum Therapy</a></li>
+      <li><a href="#">Laser Dentistry</a></li>
+      <li><a href="#">Dental braces & aligners</a></li>
+      <li><a href="#">Dental imaging</a></li>
+      <li><a href="#">Sedation dentistry</a></li>
+      <li><a href="#">Invisalign</a></li>
+      <li><a href="#">All-on-4 Implants</a></li>
+      <li><a href="#">Tooth Jeweller</a></li>
+      <li><a href="#">Smile Makeover</a></li>
+    </ul>
+  </div>
+    <div class="panel-image">
+      <img src="images/docs.jpg" alt="Doctors" />
+    </div>
+  </div>
+</div>
+
+  <div class="slide-panel" id="treatments-panel">
+    <button class="close-btn" onclick="closePanels()">✕</button>
+  <div class="panel-inner">
+    <div class="panel-content">
+    <h3>Problems We Treat</h3>
+    <ul>
+      <li><a href="#">All Problems</a></li>
+      <li><a href="#">Bad Breath / Halitosis</a></li>
+      <li><a href="#">Infant Frenectomies</a></li>
+      <li><a href="#">Gum Disease</a></li>
+      <li><a href="#">Teeth Grinding</a></li>
+      <li><a href="#">Bleeding Gums</a></li>
+      <li><a href="#">Sleep Apnea & Snoring</a></li>
+      <li><a href="#">Missing Teeth</a></li>
+      <li><a href="#">Chipped / Cracked tooth repair</a></li>
+      <li><a href="#">Dental Anxiety</a></li>
+      <li><a href="#">Sensitivity</a></li>
+      <li><a href="#">Crooked Teeth</a></li>
+      <li><a href="#">Denture Repair</a></li>
+      <li><a href="#">Stained Teeth</a></li>
+    </ul>
+  </div>
+    <div class="panel-image">
+      <img src="images/docs.jpg" alt="Doctors" />
+    </div>
+  </div>
+</div>
+
+  <nav id="navbar">
+    <a href="#"><img src="logo.png" alt="Logo" class="logo" /></a>
+    <ul class="nav-links">
+      <li><a href="#">home</a></li>
+      <li><a href="#" data-target="about-panel">about ⌵ </a></li>
+      <li><a href="#" data-target="services-panel">services ⌵</a></li>
+      <li><a href="#" data-target="treatments-panel">problems we treat ⌵</a></li>
+      <li class="dropdown">
+        <a href="#">gallery +</a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Smile Gallery</a></li>
+          <li><a href="#">Clinic Gallery</a></li>
+        </ul>
+      </li>
+      <li><a href="#">contact ✆</a></li>
+      <li><button class="appointment-btn">appointment</button></li>
+    </ul>
+  </nav>
+
+  
+  <!-- 👇 Hero Section -->
+  <section class="hero">
+    <video autoplay muted loop class="hero-media">
+      <source src="hero.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    <div class="hero-text">
+      <p>Ensuring your smile, always our priority</p>
+    </div>
+
+    <div class="hero-text2">
+      <p>
+        At NewGen Dental, we are dedicated to providing exceptional dental
+        care with a focus on advanced techniques and personalized treatment
+        plans.
+      </p>
+    </div>
+
+    <div class="hero-buttons">
+      <button class="hero-button">Schedule Now</button>
+      <button class="hero-button">Call (+91 91766 79393)</button>
+    </div>
+  </section>
+</header>
+
+
+  <main>
+
+    <section class="specialist-section" id="specialist">
+    <div class="specialist-container">
+      <div class="doc-img slide-up"><img src="images/doc1.png" alt="Doctor 1" /></div>
+      <div class="doc-img slide-up"><img src="images/doc1.png" alt="Doctor 2" /></div>
+      <div class="doc-img slide-up"><img src="images/doc1.png" alt="Doctor 3" /></div>
+      <div class="specialist-text fade-in">
+        <h2>Meet Our Specialist</h2>
+        <p>The hospital plays a statewide role in rehabilitation services, which includes the Acquired</p>
+      </div>
+    </div>
+  </section>
+
+
+  
+<section class="excellence-section">
+  <div class="excellence-container">
+    <div class="excellence-image fade-in">
+      <img src="images/why.jpg" alt="Dental Excellence" />
+    </div>
+     <div class="vertical-line"></div>
+    <div class="excellence-text slide-up">
+      <h2>Comprehensive Dental Excellence and Patient Comfort</h2>
+      <div class="excellence-point">
+        <h4>Experienced and Skilled Dentists</h4>
+        <p>>>Skilled dentists with extensive experience in all dental procedures and treatments</p>
+      </div>
+      <div class="excellence-point">
+        <h4>State-of-the-Art Technology</h4>
+        <p>>>Utilizing cutting-edge technology for precise and effective dental treatments</p>
+      </div>
+      <div class="excellence-point">
+        <h4>Comfortable and Friendly Environment</h4>
+        <p>>>Creating a warm, welcoming environment for exceptional patient comfort and satisfaction.</p>
+      </div>
+    </div>
+  </div>
+  <div class="excellence-btn-wrapper slide-up">
+    <button class="know-more-btn">know more</button>
+  </div>
+</section>
+
+<section class="cta-section fade-in">
+  <div class="cta-overlay">
+    <h2>considering dental implants?<br /><strong>get a trusted second opinion</strong></h2>
+    <p>
+      Making the right choice for your dental health is essential, and Dr. Jackson is here to provide honest, expert guidance.
+      If you’ve been told you need dental implants, schedule a free consultation to explore your best options with a provider known for precision and patient-first care.
+    </p>
+    <a href="#appointment" class="cta-button">schedule now</a>
+  </div>
+</section>
+   
+  <section class="services">
+  <h2><span class="our">our</span> <span class="expertise">expertise</span></h2>
+  <div class="grid">
+    <div class="service" style="background-image: url('images/full-mouth.jpg');"><span>Full Mouth Rehabilitation</span></div>
+    <div class="service" style="background-image: url('images/veneers.jpg');"><span>Veneers</span></div>
+    <div class="service" style="background-image: url('images/paediatric dentistry.jpg');"><span>Paediatric Dentistry</span></div>
+    <div class="service" style="background-image: url('images/whitening.jpg');"><span>Tooth Cleaning & Whitening</span></div>
+    <div class="service" style="background-image: url('images/cad-cam.jpg');"><span>In-house CAD-CAM</span></div>
+    <div class="service" style="background-image: url('images/gum-therapy.jpg');"><span>Gum Therapy</span></div>
+    <div class="service" style="background-image: url('images/laser.jpg');"><span>Laser Dentistry</span></div>
+    <div class="service" style="background-image: url('images/braces.jpg');"><span>Dental Braces & Aligners</span></div>
+    <div class="service" style="background-image: url('images/imaging.jpg');"><span>Dental Imaging</span></div>
+    <div class="service" style="background-image: url('images/sedation.jpg');"><span>Sedation Dentistry</span></div>
+    <div class="service" style="background-image: url('images/invisalign.jpg');"><span>Invisalign</span></div>
+    <div class="service" style="background-image: url('images/allon4.jpg');"><span>All-on-4 Implants</span></div>
+    <div class="service" style="background-image: url('images/tooth-jeweller.jpg');"><span>Tooth Jeweller</span></div>
+    <div class="service" style="background-image: url('images/makeover.jpg');"><span>Smile Makeover</span></div>
+  </div>
+</section>
+
+
+  </main>
+
+  	<footer class="main-footer" style="background-image:url(images/background/7.jpg)">
+    
+		<div class="container">
+        
+        	<!--Widgets Section-->
+            <div class="widgets-section">
+            	<div class="row">
+					
+					<!-- Logo Widget-->
+					<div class="footer-column col-lg-5 col-md-6">
+						<div class="footer-widget logo-widget">
+							<div class="logo">
+                <a href="#"><img src="logo.png" alt="Logo"></a>
+								<a href="index.html"><img src="images/logo.png" alt="" /></a>
+							</div>
+							<p class="text style">At Newgen Dental, we are dedicated to providing exceptional dental care with a focus on advanced techniques and personalized treatment plans. Our experienced team strives to ensure optimal oral health and beautiful smiles for every patient.</p>
+							<ul class="list-style-two">
+								<li><a href=""><span class="icon flaticon-map-pin-marked text-white"></span>No - 25, 26, 1st Floor, Ranganathan Nagar, <br>Agaram Main Road, Selaiyur, Chennai - 600073</a></li>
+								<li><a href=""><span class="icon flaticon-phone text-white"></span>91766 79393</a></li>
+								<li><a href=""><span class="icon flaticon-phone text-white"></span>91765 91763</a></li>
+								<li><a href=""><span class="icon flaticon-mail text-white"></span>newgendentalclinic@gmail.com</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- Links Widget-->
+					<div class="footer-column col-lg-3 col-md-6">
+						<div class="footer-widget link-widget">
+							<h3>Our Services</h3>
+							<ul class="footer-list">
+								<li><a href="paediatric.html">Paediatric Dentistry</a></li>
+								<li><a href="tooth-cleaning-whitening.html">Tooth Cleaning & Whitening</a></li>
+								<li><a href="gum-therapy.html">Gum Therapy</a></li>
+								<li><a href="laser-dentistry.html">Laser Dentistry</a></li>
+								<li><a href="dental-braces-aligners.html">Dental Braces & Aligners</a></li>
+								<li><a href="sedation.html">Sedation Dentistry</a></li>
+								<li><a href="tooth-jeweller.html">Tooth Jewellery</a></li>
+								<li><a href="dental-imaging.html">Dental Imaging (RVG/OPG/CBCT)</a></li>
+								<li><a href="In-house-CAD-CAM.html">Crown in a Day (In House CAD - CAM)</a></li>
+							</ul>
+						</div>
+					</div>
+					
+					<!-- Links Widget-->
+					<div class="footer-column col-lg-4 col-md-6">
+						<div class="footer-widget times-widget">
+							<h3>We’re Available</h3>
+							<ul class="time-list">
+								<li>Monday :<span>10am-2pm , 5pm-9.30pm</span></li>
+								<li>Tuesday :<span>10am-2pm , 5pm-9.30pm</span></li>
+								<li>Wednesday :<span>10am-2pm , 5pm-9.30pm</span></li>
+								<li>Thursday :<span>10am-2pm , 5pm-9.30pm</span></li>
+								<li>Friday :<span>10am-2pm , 5pm-9.30pm</span></li>
+								<li>Saturday:<span>10am-2pm , 5pm-9.30pm</span></li>
+								<li>Sunday :<span>10.00am-02.00pm - Closed</span></li>
+							</ul>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		
+		<!-- Footer Bottom -->
+		<div class="footer-bottom">
+			<div class="container">
+				<div class="clearfix">
+					
+					<div class="pull-left">
+						<!-- Copyright -->
+						<p class="copyright ">&copy; Newgen Dental. All Rights Reserved.Designed by<a href="https://v7lancers.com/" class="text-white"> V7Lancers</a></p>
+					</div>
+					
+					<div class="pull-right">
+						<ul class="social-box">
+							
+							<li class="facebook"><a href="https://www.facebook.com/profile.php?id=100066644988865&mibextid=LQQJ4d" class="fab fa-facebook-f"></a></li>
+							<li class="instagram"><a href="https://www.instagram.com/newgendentalhospital?igsh=cG43dHU5MDMwdncz&utm_source=qr" class="fab fa-instagram"></a></li>
+							<li class="youtube"><a href="https://www.youtube.com/@newgendental6740" class="fab fa-youtube"></a></li>
+							<li class="linkedin"><a href="" class="fab fa-linkedin-in"></a></li>
+						</ul>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+	</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
